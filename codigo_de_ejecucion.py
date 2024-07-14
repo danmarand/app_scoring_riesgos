@@ -24,16 +24,6 @@ ruta_completa = ruta_proyecto + '/02_Datos/02_Validacion/' + nombre_fichero_dato
 df = pd.read_csv(ruta_completa,index_col='id_cliente').drop(columns='Unnamed: 0')
 
 
-try:
-    df = pd.read_csv(file_path)
-    # Hacer algo con el DataFrame df
-    print("Archivo cargado exitosamente.")
-except FileNotFoundError:
-    print(f"No se encontró el archivo en la ruta especificada: {file_path}")
-except Exception as e:
-    print(f"Ocurrió un error al leer el archivo: {e}")
-
-
 #3.VARIABLES Y REGISTROS FINALES
 variables_finales = ['ingresos_verificados',
                      'vivienda',
