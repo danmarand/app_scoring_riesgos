@@ -18,10 +18,10 @@ from sklearn.pipeline import make_pipeline
 
 
 #2.CARGA DATOS
-ruta_proyecto = r'C:\Users\DANI\Desktop\PYTHON DATA SCIENCE MASTERY\EstructuraDirectorio\03_MACHINE_LEARNING\08_CASOS\03_RIESGOS\02_Datos\02_Validacion\'
+ruta_proyecto = r'C:\Users\DANI\Desktop\PYTHON DATA SCIENCE MASTERY\EstructuraDirectorio\03_MACHINE_LEARNING\08_CASOS\03_RIESGOS\02_Datos\02_Validacion\\'
 nombre_fichero_datos = 'validacion.csv'
 ruta_completa = ruta_proyecto + nombre_fichero_datos
-df = pd.read_csv(ruta_completa,index_col='id_cliente').drop(columns='Unnamed: 0')
+df = pd.read_csv(ruta_completa, index_col='id_cliente').drop(columns='Unnamed: 0')
 
 
 #3.VARIABLES Y REGISTROS FINALES
