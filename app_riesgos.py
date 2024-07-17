@@ -140,10 +140,5 @@ if st.sidebar.button('CALCULAR RIESGO'):
             st.metric(label="COMISIÓN A APLICAR", value=kpi_el * 3)  # Metido en estático por simplicidad
     else:
         st.write('Error: No se pudo calcular el riesgo. Verifique los datos ingresados.')
-
-else:
-    st.write('DEFINE LOS PARÁMETROS DEL PRÉSTAMO Y HAZ CLICK EN CALCULAR RIESGO')
-    
-
 else:
     st.write('DEFINE LOS PARÁMETROS DEL PRÉSTAMO Y HAZ CLICK EN CALCULAR RIESGO')
